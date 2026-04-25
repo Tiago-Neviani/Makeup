@@ -1,5 +1,6 @@
-.body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+body {
+  margin: 0;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Cabeçario {
@@ -125,7 +126,8 @@
 .pessoas {
   display: flex;
   width: 20%;
-  gap: 30px;
+  gap: 15px;
+  justify-content: end;
   align-items: center;
 }
 
