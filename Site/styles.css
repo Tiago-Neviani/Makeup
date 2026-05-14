@@ -292,9 +292,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.321);
   color: #fff;
   cursor: pointer;          /* mãozinha de clique */
-  border-radius: 10%;       /* deixa em formato de bolinha */
-  padding: 15px;            /* espaço interno para formar o círculo */
-  margin: 0 10px;           /* separação das bordas */
+  border-radius: 10%;      
+  padding: 15px;            
+  margin: 0 10px;           
   box-shadow: 0 0 8px rgba(0,0,0,0.3); /* leve sombra para destacar */
   transition: background-color 0.3s ease, transform 0.2s ease;
   pointer-events: auto;     /* só as setas recebem clique */
@@ -361,13 +361,13 @@ a:hover {
   cursor: pointer;
   text-align: center;
   z-index: 10;
-  pointer-events: none; /* impede bloqueio */
+  pointer-events: none; 
   transition: background-color 0.3s ease, transform 0.2s ease;
-  pointer-events: auto;     /* só as bolinhas recebem clique */
+  pointer-events: auto;
 }
 
 .btns span {
-  pointer-events: auto; /* só as bolinhas recebem clique */
+  pointer-events: auto;
 }
 
 .btns .select-dot {
