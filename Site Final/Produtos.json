@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "nome": "Base com Fator 50",
+    "slug": "base_hidrabene",
+    "preco": 99.90,
+    "imagem": "Img/Base.png",
+    "marca": "Hidrabene",
+    "tipo": "Bases",
+    "descricao": "Base facial em bastão multifuncional com FPS 50, alta cobertura e acabamento matte. Auxilia no controle da oleosidade e acne enquanto protege contra raios UVA, UVB e luz visível.",
+    "beneficios": "Alta cobertura, toque seco, efeito matte, resistente à água, oil free, não comedogênica e hipoalergênica.",
+    "composicao": "Óxido de zinco, dióxido de titânio, vitamina E, extrato de aloe vera, melaleuca, ácido salicílico, enxofre e filtros solares.",
+    "tipoPele": "Todos os tipos de pele, especialmente oleosa e acneica.",
+    "crueltyfree": "Sim",
+    "vegano": "Sim",
+    "usoManha": "Aplicar sobre a pele limpa e seca espalhando uniformemente. Reaplicar quando necessário.",
+    "usoNoite": "Remover completamente antes de dormir utilizando demaquilante ou sabonete facial.",
+    "precaucoes": "Uso externo. Evitar contato com os olhos. Suspender o uso em caso de irritação.",
+    "link": "produto.html?produto=base_hidrabene"
+  },
+  {
+    "id": 2,
+    "nome": "Tônico facial",
+    "slug": "tonico_melu",
+    "preco": 17.99,
+    "imagem": "Img/Tonico_melu.png",
+    "marca": "Melu",
+    "tipo": "Tonico",
+    "descricao": "Tônico facial desenvolvido para complementar a limpeza da pele, equilibrando a oleosidade e preparando a pele para a hidratação.",
+    "composicao": "Enriquecido com esqualano, vitamina E e agentes hidratantes.",
+    "crueltyfree": "Sim",
+    "usoManha": "Aplicar após a limpeza facial com algodão ou diretamente nas mãos.",
+    "usoNoite": "Aplicar após a limpeza e antes do sérum ou hidratante.",
+    "usos": "Uso externo. Em caso de irritação suspenda o uso.",
+    "link": "produto.html?produto=tonico_melu"
+  },
+  {
+    "id": 3,
+    "nome": "Mousse micelar",
+    "slug": "mousse_micelar",
+    "preco": 24.99,
+    "imagem": "Img/Mouse_micelar.png",
+    "marca": "Bem Me Quero",
+    "tipo": "Mouse",
+    "descricao": "Mousse micelar para limpeza facial que remove maquiagem, oleosidade, poluição e resíduos acumulados na pele, promovendo limpeza suave e sensação de frescor.",
+    "beneficios": "Limpa profundamente, auxilia no equilíbrio da pele, remove maquiagem e impurezas sem ressecar.",
+    "composicao": "Tecnologia micelar associada a ativos hidratantes e antioxidantes.",
+    "anvisa": "",
+    "validade": "Consulte a embalagem do fabricante.",
+    "crueltyfree": "Sim",
+    "vegano": "Não informado.",
+    "tipoPele": "Todos os tipos de pele.",
+    "usoManha": "Aplicar sobre a pele úmida massageando suavemente e enxaguar.",
+    "usoNoite": "Utilizar para remover maquiagem, protetor solar e impurezas acumuladas durante o dia.",
+    "usos": "Pode ser utilizado diariamente na rotina de skincare.",
+    "precaucoes": "Uso externo. Evitar contato direto com os olhos.",
+    "variacoes": [
+      {
+        "nome": "Hialurônico"
+      },
+      {
+        "nome": "Rosa Mosqueta"
+      },
+      {
+        "nome": "Vitamina C"
+      },
+      {
+        "nome": "Antioleosidade"
+      }
+    ],
+    "link": "produto.html?produto=mousse_micelar"
+  },
+  {
+    "id": 4,
+    "nome": "Batom Flabella",
+    "slug": "batom_flabella",
+    "preco": 14.99,
+    "imagem": "Img/Batom_fla.png",
+    "marca": "Flabella",
+    "tipo": "Batom",
+    "link": "produto.html?produto=batom_flabella"
+  },
+  {
+    "id": 5,
+    "nome": "Óleo de Rosa Mosqueta",
+    "slug": "oleo_rosa_mosqueta",
+    "preco": 24.90,
+    "imagem": "Img/Dermachem_Oleo_Rosa.png",
+    "marca": "Dermachem",
+    "tipo": "Hidratante",
+    "descricao": "Feito com óleo 100% natural.",
+    "composicao": "Óleo do Fruto de Rosa-Mosqueta e BHT.",
+    "anvisa": "25351.388412/2024-97",
+    "validade": "3 anos a partir da fabricação.",
+    "crueltyfree": "Não testado em animais.",
+    "usoManha": "Aplicar sobre a pele limpa e usar protetor solar.",
+    "usoNoite": "Aplicar antes de dormir.",
+    "link": "produto.html?produto=oleo_rosa_mosqueta"
+  },
+  {
+    "id": 6,
+    "nome": "Mousse de Limpeza",
+    "slug": "mousse_limpeza_dapop",
+    "preco": 24.90,
+    "imagem": "Img/Mousse_dapop.jpeg",
+    "marca": "Dapop",
+    "tipo": "Limpeza",
+    "link": "produto.html?produto=mousse_limpeza_dapop"
+  },
+  {
+    "id": 7,
+    "nome": "Lápis de olho colorido",
+    "slug": "lapis_melu_colorido",
+    "preco": 24.90,
+    "imagem": "Img/Lapis_olho_colorido.jpeg",
+    "marca": "Melu",
+    "tipo": "Make",
+    "descricao": "Feito com óleo 100% natural.",
+    "composicao": "Óleo do Fruto de Rosa-Mosqueta e BHT.",
+    "anvisa": "25351.388412/2024-97",
+    "validade": "3 anos a partir da fabricação.",
+    "crueltyfree": "Não testado em animais.",
+    "usoManha": "Aplicar sobre a pele limpa e usar protetor solar.",
+    "usoNoite": "Aplicar antes de dormir.",
+    "variacoes": [
+      {
+        "nome": "Azul"
+      },
+      {
+        "nome": "Verde"
+      },
+      {
+        "nome": "Roxo"
+      },
+      {
+        "nome": "Marrom"
+      }
+    ],
+    "link": "produto.html?produto=lapis_melu_colorido"
+  },
+  {
+    "id": 8,
+    "nome": "Lápis de olho",
+    "slug": "lapis_luisance",
+    "preco": 24.90,
+    "imagem": "Img/Lapis_olho.jpeg",
+    "marca": "Luisance",
+    "tipo": "Make",
+    "link": "produto.html?produto=lapis_luisance"
+  },
+  {
+    "id": 9,
+    "nome": "Serum Bioretinol",
+    "slug": "serum_bioretinol",
+    "preco": 24.99,
+    "imagem": "Img/Serum_Bioretionol.jpeg",
+    "marca": "Dermachem",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=serum_bioretinol"
+  },
+  {
+    "id": 10,
+    "nome": "Serum Antiacne",
+    "slug": "serum_antiacne",
+    "preco": 24.90,
+    "imagem": "Img/Serum_Antiacne.jpeg",
+    "marca": "Dermachem",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=serum_antiacne"
+  },
+  {
+    "id": 11,
+    "nome": "Aerosol Protetor Fator 50",
+    "slug": "aerosol_protetor_fps50",
+    "preco": 44.90,
+    "imagem": "Img/Aerosol_50.jpeg",
+    "marca": "Ricosol",
+    "tipo": "Protetor",
+    "link": "produto.html?produto=aerosol_protetor_fps50"
+  },
+  {
+    "id": 12,
+    "nome": "Protetor Solar Fator 70",
+    "slug": "protetor_solar_fps70",
+    "preco": 24.90,
+    "imagem": "Img/Protetor_70_Anasol.jpeg",
+    "marca": "Anasol",
+    "tipo": "Protetor",
+    "link": "produto.html?produto=protetor_solar_fps70"
+  },
+  {
+    "id": 13,
+    "nome": "Protetor Clareador Solar Fator 70",
+    "slug": "protetor_clareador_fps70",
+    "preco": 69.90,
+    "imagem": "Img/Protetor_70_clareador_Anasol.png",
+    "marca": "Anasol",
+    "tipo": "Protetor",
+    "link": "produto.html?produto=protetor_clareador_fps70"
+  },
+  {
+    "id": 14,
+    "nome": "Gel Hidratante para Virilha",
+    "slug": "gel_hidratante_para_virilha",
+    "preco": 29.99,
+    "imagem": "Img/gel_hidratante_para_virilha.jpeg",
+    "marca": "PhalleBeauty",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=gel_hidratante_para_virilha"
+  },
+  {
+    "id": 15,
+    "nome": "Repelente Kids",
+    "slug": "repelente_kids",
+    "preco": 19.90,
+    "imagem": "Img/repelente_kids.jpeg",
+    "marca": "PhalleBeauty",
+    "tipo": "Ignonita",
+    "link": "produto.html?produto=repelente_kids"
+  },
+  {
+    "id": 16,
+    "nome": "Kit Protetor Solar Anasol",
+    "slug": "kit_protetor_solar_anasol",
+    "preco": 69.90,
+    "imagem": "Img/kit_protetor_solar_anasol.jpeg",
+    "marca": "Anasol",
+    "tipo": "Protetor",
+    "link": "produto.html?produto=kit_protetor_solar_anasol"
+  },
+  {
+    "id": 17,
+    "nome": "Loção Hidratante Cerave 200 ml",
+    "slug": "locao_hidratante_cerave_200_ml",
+    "preco": 115.90,
+    "imagem": "Img/locao_hidratante_cerave_200_ml.jpeg",
+    "marca": "Cerave",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=locao_hidratante_cerave_200_ml"
+  },
+  {
+    "id": 18,
+    "nome": "Loção Hidratante Monange Q10 400 ml",
+    "slug": "locao_hidratante_monange_Q10_400_ml",
+    "preco": 27.70,
+    "imagem": "Img/locao_hidratante_monange_Q10_400_ml.jpeg",
+    "marca": "Monange",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=locao_hidratante_monange_Q10_400_ml"
+  },
+  {
+    "id": 19,
+    "nome": "Loção Hidratante Vasenol 200 ml",
+    "slug": "locao_hidratante_vasenol_200_ml",
+    "preco": 28.90,
+    "imagem": "Img/locao_hidratante_vasenol_200_ml.jpeg",
+    "marca": "Monange",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=locao_hidratante_vasenol_200_ml"
+  },
+  {
+    "id": 20,
+    "nome": "Hidratante Corporal Nivea Milk 400 ml",
+    "slug": "hidratante_nivea_milk_400_ml",
+    "preco": 27.90,
+    "imagem": "Img/hidratante_nivea_milk_400_ml.jpeg",
+    "marca": "Nivea",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=hidratante_nivea_milk_400_ml"
+  },
+
+  {
+    "id": 21,
+    "nome": "Hidratante Corporal Dove Karité 400 ml",
+    "slug": "hidratante_dove_karite_400_ml",
+    "preco": 24.90,
+    "imagem": "Img/hidratante_dove_karite.jpeg",
+    "marca": "Dove",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=hidratante_dove_karite"
+  },
+
+  {
+    "id": 22,
+    "nome": "Neutrogena Hidratante Hidrata e suaviza 400ml",
+    "slug": "hidratante_neutrogena_hidrata_suaviza",
+    "preco": 59.90,
+    "imagem": "Img/hidratante_neutrogena_hidrata_suaviza.jpeg",
+    "marca": "Neutrogena",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=hidratante_neutrogena_hydro_boost_50g"
+  },
+  {
+    "id": 23,
+    "nome": "Sabonete Liquido Hidrante Granado Amêndoas 300 ml",
+    "slug": "sab_liq_granado_amendoas_300_ml",
+    "preco": 32.90,
+    "imagem": "Img/sab_liq_granado_amendoas_300_ml.jpeg",
+    "marca": "Granado",
+    "tipo": "Hidratante",
+    "link": "produto.html?produto=sab_liq_granado_amendoas_300_ml"
+  }
+]

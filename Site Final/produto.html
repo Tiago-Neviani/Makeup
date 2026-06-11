@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deyse Makeup</title>
+    <link rel="stylesheet" href="styles/styles.produto-copy.css"/>
+    <link rel="stylesheet" href="styles/styles.index.css"/>
+    <link rel="icon" href="Img/Logo.jpeg"/>    
+     
+    
+  </head>
+  <body>
+    <p id="e"></p>
+  <header class="Cabeçario">
+    <h3>A loja de Make que vai até você</h3>
+    <h3>Produtos a partir de R$ 7,99</h3>
+  </header>
+
+  <div class="vista">
+      <div class="busca-container">
+    <img src="Img/Lupa2.png" alt="" class="Lupa2">
+
+    <div class="search">
+      <input oninput="filtrar()"
+            type="search"
+            placeholder="Pesquisar"
+            autocomplete="off"
+            id="Buscador"/>
+
+      <ul id="Lista_Pro"></ul>
+    </div>
+  </div>
+    <a href="index.html">
+      <img src="Img/Logo.jpeg" alt="Logo" class="logotipo"/>
+    </a>
+    <div class="icon-cart">
+    🛒 <span>0</span>
+    </div>
+
+    <div class="cart">
+        <h2>Carrinho</h2>
+
+        <div class="listCart"></div>
+
+        <div class="buttons">
+            <button class="close">Fechar</button>
+        </div>
+    </div>
+  </div>
+  
+  
+  <nav class="um">
+    <div class="pesquisa">
+      <div class="cat">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p class="categoria" id="categoria">Categorias</p>
+        <ul class="submenu">
+          <li><a href="categoria.html?tipo=Batom">●Batom</a></li>
+          <li><a href="categoria.html?tipo=Base">●Base</a></li>
+          <li><a href="categoria.html?tipo=Protetor">●Protetor Solar</a></li>
+          <li><a href="categoria.html?tipo=Hidratante">●Hidratante</a></li>
+          <li><a href="categoria.html?tipo=Make">●Make</a></li>
+          <li><a href="categoria.html?tipo=Facial">●Facial</a></li>
+          <li><a href="categoria.html?tipo=Skincare">●Skincare</a></li>
+        </ul>
+      </div>
+      
+      <a href="categoria.html?tipo=Batom" class="algo"><p>Batom</p></a>
+      <a href="categoria.html?tipo=Bases" class="algo2"><p>Bases</p></a>
+      <a href="categoria.html?tipo=Skincare" class="cursos"><p>Skincare</p></a>
+    </div>
+  </nav>
+<hr>
+    <div class="meio">
+      <div class="pag">
+        <a href="index.html"><h2>Início</h2></a>
+        <h2>/</h2>
+
+        <a id="link-tipo">
+            <h2 id="produto-tipo"></h2>
+        </a>
+
+        <h2>/</h2>
+        <h2 id="breadcrumb-nome"></h2>
+      </div>
+      <div class="quadro">
+        <div class="main"> 
+          <div class="prod">
+            <img id="produto-imagem" src="" alt="">
+          </div>
+          <div>
+            <h1 id="produto-nome"></h1>
+
+            <h2 id="produto-marca"></h2>
+
+            <h3 id="produto-preco"></h3>
+
+            <div id="variacoes"></div>
+
+            <p id="variacao-escolhida"></p>
+
+            <button class="adc">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="sobre">
+          <h2>Descrição do Produto</h2>
+          <p id="produto-descricao"></p>
+          <p>
+            <strong>Composição:</strong>
+            <span id="produto-composicao"></span>
+          </p>
+          <p>
+            <strong>Registro na Anvisa:</strong>
+            <span id="produto-anvisa"></span>
+          </p>
+          <p>
+            <strong>Validade:</strong>
+            <span id="produto-validade"></span>
+          </p>
+          <p>
+            <strong>Cruelty-Free:</strong>
+            <span id="produto-cruelty"></span>
+          </p>
+          <h2><em>Recomendação de Uso</em></h2>
+          
+          <p>
+            <strong>Pela manhã:</strong>
+            <span id="produto-manha"></span>
+          </p>
+          <p>
+            <strong>Pela noite:</strong>
+            <span id="produto-noite"></span>
+          </p>
+          <p>
+            <strong>Considerações:</strong>
+            <span id="produto-usos"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="relacionados">
+      <h1>Relacionados</h1>
+    </div>
+  <div id="queridinhos">
+    <div class="setas2">
+      <span class="seta2 fre" direcao="atras">◁</span>
+      <span class="seta2" direcao="frente">▷</span>
+    </div>
+
+    <div class="area-produtos">
+      <div class="slide-wrapper1">
+          <!-- Primeiro grupo de 5 produtos -->
+          <div class="slide1">
+            <div class="produtos">
+              
+              
+            </div>
+          </div>
+
+          <!-- Segundo grupo de 5 produtos -->
+          <div class="slide1">
+            <div class="produtos">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+<hr>
+
+    <footer class="rodapé">
+    <div class="atendimento">
+      <h1 class="textoi">Atendimento</h1>
+      <div class="Contato">
+        <a href="https://wa.me/5517981673774" class="Contato">
+          <img src="Img/Whatsapp_img2.jpeg" alt="Whatsapp_img" class="whats"/>
+          <p>(17) 98167-3774</p>
+        </a>
+      </div>
+      
+      <div class="Local">
+        <a href="https://maps.app.goo.gl/TRzbAn3jqV2fzTVP9">
+          <img src="Img/Localização.jpeg" alt="Localização" class="Localização"/>
+          <p class="pq">Rua Adirce Alves Tremura 338</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="hela">
+      <h1>Ajuda e Suporte</h1>
+      <div class="help">
+        <a href="informacoes_pagamento.html"> <p>Formas de pagamento</p></a>
+        <a href="informacoes_quem_somos.html"> <p>Quem Somos</p></a>
+      </div>
+    </div>
+
+    <div class="social">
+        <h1>Redes Sociais</h1>
+      <a href="https://www.instagram.com/deysebinottomakeup/">
+        <img src="Img/Insta2.jpeg" alt="Instagram logo" class="insta" />
+      </a>
+    </div>
+  </footer>
+  </body>
+  <script src="scripts/script.carrinho.JS"></script>
+  <script src="scripts/script.pesquisa.js"></script> 
+  <script src="scripts/script.produto.js"></script>
+</html>

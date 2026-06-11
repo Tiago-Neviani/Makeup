@@ -1,0 +1,30 @@
+.paga {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 30px;               
+  margin: 40px 0;          
+}
+
+.paga img {
+  width: 200px;            
+  height: auto;           
+  object-fit: contain;
+}
+
+
+.meio {
+  align-items: center;
+  text-align: center;
+}
+
+.meio img {
+  border-radius: 15%;
+}
+
+.meio p {
+  max-width: 600px;  
+  margin: 20px auto;  
+  line-height: 1.6;   
+  text-align: justify; 
+}
