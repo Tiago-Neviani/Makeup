@@ -163,7 +163,7 @@
     "nome": "Serum Antiacne",
     "slug": "serum_antiacne",
     "preco": 24.90,
-    "imagem": "Img/Serum_Antiacne.jpeg",
+    "imagem": "Img/Serum_antiacne.jpeg",
     "marca": "Dermachem",
     "tipo": "Hidratante",
     "link": "produto.html?produto=serum_antiacne"
