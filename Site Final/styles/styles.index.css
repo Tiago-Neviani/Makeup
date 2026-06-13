@@ -1,18 +1,22 @@
+/* Remove margens padrão da página e define a fonte principal. */
 body {
   margin: 0;
   padding: 0;
   font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
 }
 
+/* Remove a decoração dos links e faz com que herdem a cor do elemento pai. */
 a {
   text-decoration: none;
   color: inherit;
 }
 
+/* Altera a cor dos links quando o mouse passa sobre eles. */
 a:hover {
   color: var(--cor-hover);
 }
 
+/* Organiza o cabeçalho distribuindo os elementos horizontalmente. */
 .Cabeçario {
   display: flex;
   justify-content: space-between;
@@ -20,25 +24,28 @@ a:hover {
   margin-top: 30px;
 }
 
+/* Organiza os elementos principais do cabeçalho e os alinha ao centro. */
 .vista {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
   align-items: center;
   margin: 0 15% 20px;
   flex: 1;
 }
 
-.vista .icon-cart{
+/* Posiciona o ícone do carrinho no início do alinhamento vertical. */
+.vista .icon-cart {
   align-self: flex-start;
 }
 
+/* Define o tamanho e o comportamento do logotipo. */
 .logotipo {
   width: 150px;
   cursor: pointer;
   margin-right: 200px;
 }
 
+/* Cria a estrutura visual da barra de pesquisa. */
 .busca-container {
   display: flex;
   align-items: center;
@@ -48,12 +55,14 @@ a:hover {
   justify-self: start;
 }
 
+/* Define o tamanho do ícone da lupa. */
 .Lupa2 {
   width: 20px;
   height: 20px;
   margin-right: 8px;
 }
 
+/* Organiza internamente o campo de pesquisa. */
 .search {
   display: flex;
   flex-direction: column;
@@ -61,6 +70,7 @@ a:hover {
   position: relative;
 }
 
+/* Personaliza a aparência geral dos campos de entrada. */
 input {
   width: 100%;
   padding: 8px;
@@ -70,6 +80,7 @@ input {
   background: transparent;
 }
 
+/* Personaliza o botão de limpar do campo de busca em navegadores WebKit. */
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
   width: 16px;
@@ -84,6 +95,7 @@ input[type="search"]::-webkit-search-cancel-button {
   );
 }
 
+/* Define fundo preto e texto branco para essas seções. */
 .um,
 .pesquisa,
 .rodapé {
@@ -91,35 +103,38 @@ input[type="search"]::-webkit-search-cancel-button {
   color: #fff;
 }
 
-.pesquisa{
+/* Organiza horizontalmente o menu de pesquisa. */
+.pesquisa {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   margin: 0 15%;
 }
 
+/* Define o estilo dos links e categorias do menu. */
 .pesquisa a,
 .categoria,
 .algo,
 .algo2,
 .cursos {
   padding: 5px 10px;
-  font-size:clamp(16px,2vw,30px);
+  font-size: clamp(16px,2vw,30px);
   color: #fff;
 }
 
-
+/* Posiciona corretamente a categoria que contém o submenu. */
 .cat {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-.cat a:hover{
+/* Altera a cor da categoria ao passar o mouse. */
+.cat a:hover {
   color: #767676;
 }
 
+/* Cria o ícone de menu hambúrguer. */
 .hamburger {
   display: flex;
   flex-direction: column;
@@ -129,17 +144,20 @@ input[type="search"]::-webkit-search-cancel-button {
   cursor: pointer;
 }
 
+/* Estiliza cada barra do menu hambúrguer. */
 .hamburger span {
   height: 3px;
   background: #fff;
   border-radius: 2px;
 }
 
+/* Exibe o submenu ao passar o mouse ou quando possuir a classe show. */
 .cat:hover .submenu,
 .submenu.show {
   display: block;
 }
 
+/* Define a aparência e posição do submenu. */
 .submenu {
   display: none;
   position: absolute;
@@ -153,18 +171,22 @@ input[type="search"]::-webkit-search-cancel-button {
   z-index: 10;
 }
 
+/* Adiciona espaçamento aos itens do submenu. */
 .submenu li {
   padding: 5px 10px;
 }
 
+/* Define a cor dos links do submenu. */
 .submenu li a {
   color: #fff;
 }
 
+/* Altera a cor dos links do submenu ao passar o mouse. */
 .submenu li a:hover {
   color: #000;
 }
 
+/* Configura a lista de produtos sugeridos da pesquisa. */
 #Lista_Pro {
   display: none;
   position: absolute;
@@ -177,15 +199,18 @@ input[type="search"]::-webkit-search-cancel-button {
   z-index: 100;
 }
 
+/* Define a altura de cada item da lista. */
 #Lista_Pro li {
   height: 70px;
 }
 
+/* Destaca o item quando o mouse passa sobre ele. */
 #Lista_Pro li:hover {
   color: var(--cor-hover);
   transform: scale(1.02);
 }
 
+/* Organiza o conteúdo interno de cada sugestão de produto. */
 #Lista_Pro li a {
   display: flex;
   align-items: center;
@@ -197,6 +222,7 @@ input[type="search"]::-webkit-search-cancel-button {
   box-sizing: border-box;
 }
 
+/* Define o tamanho das imagens da lista de sugestões. */
 #Lista_Pro img {
   width: 50px;
   height: 50px;
@@ -205,21 +231,25 @@ input[type="search"]::-webkit-search-cancel-button {
   border-radius: 5px;
 }
 
+/* Organiza as informações do produto em coluna. */
 .info-produto {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
+/* Destaca o nome do produto. */
 .info-produto strong {
   font-size: 15px;
 }
 
+/* Define o estilo da marca do produto. */
 .marca {
   font-size: 13px;
   color: #666;
 }
 
+/* Posiciona e destaca o preço do produto. */
 .preco {
   margin-left: auto;
   font-weight: bold;
@@ -228,19 +258,23 @@ input[type="search"]::-webkit-search-cancel-button {
   white-space: nowrap;
 }
 
+/* Permite animação nas imagens dos cartões de produto. */
 .produto-card img {
   transition: transform 0.3s ease;
 }
 
+/* Amplia a imagem do produto ao passar o mouse. */
 .produto-card:hover img {
   transform: scale(1.05);
 }
 
+/* Altera a cor do cartão ao passar o mouse. */
 .produto-card:hover {
   color: var(--cor-hover);
 }
 
-.rodapé{
+/* Organiza o rodapé em colunas distribuídas horizontalmente. */
+.rodapé {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -250,6 +284,7 @@ input[type="search"]::-webkit-search-cancel-button {
   padding-right: 15%;
 }
 
+/* Distribui igualmente as seções do rodapé. */
 .atendimento,
 .hela,
 .social {
@@ -258,47 +293,54 @@ input[type="search"]::-webkit-search-cancel-button {
   text-align: center;
 }
 
+/* Organiza verticalmente a seção de atendimento. */
 .atendimento {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* Organiza informações de contato e localização. */
 .Contato,
 .Local,
-.Local a{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  color:var(--branco);
+.Local a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--branco);
 }
 
+/* Define o tamanho do texto dessas informações. */
 .Contato,
-.Local{
-  font-size:20px;
+.Local {
+  font-size: 20px;
 }
 
+/* Indica que esses elementos são clicáveis. */
 .Contato,
-.Local a{
-    cursor:pointer;
+.Local a {
+  cursor: pointer;
 }
 
-
+/* Define o tamanho dos ícones do WhatsApp e localização. */
 .whats,
 .Localização {
   height: 30px;
 }
 
+/* Define o tamanho do ícone do Instagram. */
 .insta {
   height: 50px;
 }
 
+/* Estiliza o link de ajuda. */
 .help {
   font-size: 20px;
   color: #fff;
   cursor: pointer;
 }
 
+/* Altera a cor dos elementos do rodapé ao passar o mouse. */
 .rodapé p:hover,
 .atendimento:hover,
 .hela:hover,
@@ -306,10 +348,9 @@ input[type="search"]::-webkit-search-cancel-button {
   color: var(--cor-hover);
 }
 
-.icon-cart{
+/* Define a aparência do ícone do carrinho de compras. */
+.icon-cart {
   position: relative;
-  
-  right: 0;
   right: 15px;
   background: black;
   color: white;
@@ -319,13 +360,15 @@ input[type="search"]::-webkit-search-cancel-button {
   border-radius: 5px;
 }
 
-.icon-cart span{
+/* Exibe o contador de itens do carrinho. */
+.icon-cart span {
   background: red;
   padding: 2px 8px;
   border-radius: 50%;
 }
 
-.cart{
+/* Configura o painel lateral do carrinho. */
+.cart {
   position: fixed;
   top: 0;
   right: -100%;
@@ -338,31 +381,32 @@ input[type="search"]::-webkit-search-cancel-button {
   border-left: 1px solid #000;
 }
 
-body.showCart .cart{
+/* Exibe o carrinho quando o body recebe a classe showCart. */
+body.showCart .cart {
   right: 0;
 }
 
-body.showCart .cart{
-  right: 0;
+/* Estiliza o título do carrinho. */
+.cart h2 {
+  padding: 20px;
+  margin: 0;
+  background: black;
+  color: white;
 }
 
-.cart h2{
-  padding:20px;
-  margin:0;
-  background:black;
-  color:white;
+/* Define a área rolável da lista de produtos do carrinho. */
+.listCart {
+  flex: 1;
+  overflow: auto;
 }
 
-.listCart{
-  flex:1;
-  overflow:auto;
+/* Adiciona espaçamento aos botões do carrinho. */
+.buttons {
+  padding: 20px;
 }
 
-.buttons{
-  padding:20px;
-}
-
-.close{
+/* Estiliza o botão de fechar o carrinho. */
+.close {
   width: 100%;
   height: 50px;
   border: none;
@@ -372,72 +416,83 @@ body.showCart .cart{
   font-size: 18px;
 }
 
-.close:hover{
+/* Altera a aparência do botão de fechar ao passar o mouse. */
+.close:hover {
   background: #333;
 }
 
-.quantidade{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:10px;
-  margin-top:10px;
+/* Organiza os controles de quantidade. */
+.quantidade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
 }
 
-.quantidade button{
-  width:30px;
-  height:30px;
-  cursor:pointer;
-  border:none;
-  background:black;
-  color:white;
-  border-radius:5px;
-  font-size:18px;
+/* Define a aparência dos botões de aumentar e diminuir quantidade. */
+.quantidade button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
-.quantidade span{
-  font-size:18px;
-  width:20px;
-  text-align:center;
+/* Estiliza o número da quantidade exibida. */
+.quantidade span {
+  font-size: 18px;
+  width: 20px;
+  text-align: center;
 }
 
-.subtotal{
-  margin-top:10px;
-  font-weight:bold;
-  color:#661717;
+/* Destaca o subtotal do item. */
+.subtotal {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #661717;
 }
 
-.totalCarrinho{
-  position:sticky;
-  bottom:0;
-  background:white;
-  padding:20px;
-  text-align:center;
-  border-top:2px solid #ccc;
+/* Fixa a área do total na parte inferior do carrinho. */
+.totalCarrinho {
+  position: sticky;
+  bottom: 0;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #ccc;
 }
 
-.totalCarrinho h2{
-  margin:0;
-  color:#900303;
+/* Estiliza o valor total do carrinho. */
+.totalCarrinho h2 {
+  margin: 0;
+  color: #900303;
 }
 
-.item{
+/* Organiza cada item do carrinho horizontalmente. */
+.item {
   display: flex;
   gap: 15px;
   padding: 15px;
 }
 
-.imagem{
+/* Posiciona a imagem do produto. */
+.imagem {
   display: flex;
   align-items: flex-start;
 }
 
-.imagem img{
+/* Define o tamanho da imagem do produto no carrinho. */
+.imagem img {
   width: 80px;
   border-radius: 5px;
 }
 
-.info{
+/* Organiza as informações do produto em coluna. */
+.info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -445,26 +500,31 @@ body.showCart .cart{
   flex: 1;
 }
 
+/* Altera a cor dos parágrafos ao passar o mouse. */
 p:hover {
   color: #767676;
 }
 
-.info h3, .info p{
+/* Remove margens padrão dos títulos e parágrafos da informação. */
+.info h3,
+.info p {
   margin: 0;
 }
 
-.comprar{
-  width:100%;
-  margin-top:15px;
-  height:50px;
-  background:#25D366;
-  color:white;
-  border:none;
-  border-radius:5px;
-  font-size:18px;
-  cursor:pointer;
+/* Estiliza o botão de compra. */
+.comprar {
+  width: 100%;
+  margin-top: 15px;
+  height: 50px;
+  background: #25D366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-.comprar:hover{
-  background:#1da851;
+/* Escurece o botão de compra ao passar o mouse. */
+.comprar:hover {
+  background: #1da851;
 }
