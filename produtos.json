@@ -160,16 +160,6 @@
   },
   {
     "id": 10,
-    "nome": "Serum Antiacne",
-    "slug": "serum_antiacne",
-    "preco": 24.90,
-    "imagem": "Img/Serum_antiacne.jpeg",
-    "marca": "Dermachem",
-    "tipo": "Hidratante",
-    "link": "produto.html?produto=serum_antiacne"
-  },
-  {
-    "id": 11,
     "nome": "Aerosol Protetor Fator 50",
     "slug": "aerosol_protetor_fps50",
     "preco": 44.90,
@@ -179,7 +169,7 @@
     "link": "produto.html?produto=aerosol_protetor_fps50"
   },
   {
-    "id": 12,
+    "id": 11,
     "nome": "Protetor Solar Fator 70",
     "slug": "protetor_solar_fps70",
     "preco": 24.90,
@@ -189,7 +179,7 @@
     "link": "produto.html?produto=protetor_solar_fps70"
   },
   {
-    "id": 13,
+    "id": 12,
     "nome": "Protetor Clareador Solar Fator 70",
     "slug": "protetor_clareador_fps70",
     "preco": 69.90,
@@ -199,7 +189,7 @@
     "link": "produto.html?produto=protetor_clareador_fps70"
   },
   {
-    "id": 14,
+    "id": 13,
     "nome": "Gel Hidratante para Virilha",
     "slug": "gel_hidratante_para_virilha",
     "preco": 29.99,
@@ -209,7 +199,7 @@
     "link": "produto.html?produto=gel_hidratante_para_virilha"
   },
   {
-    "id": 15,
+    "id": 14,
     "nome": "Repelente Kids",
     "slug": "repelente_kids",
     "preco": 19.90,
@@ -219,7 +209,7 @@
     "link": "produto.html?produto=repelente_kids"
   },
   {
-    "id": 16,
+    "id": 15,
     "nome": "Kit Protetor Solar Anasol",
     "slug": "kit_protetor_solar_anasol",
     "preco": 69.90,
@@ -229,7 +219,7 @@
     "link": "produto.html?produto=kit_protetor_solar_anasol"
   },
   {
-    "id": 17,
+    "id": 16,
     "nome": "Loção Hidratante Cerave 200 ml",
     "slug": "locao_hidratante_cerave_200_ml",
     "preco": 115.90,
@@ -239,7 +229,7 @@
     "link": "produto.html?produto=locao_hidratante_cerave_200_ml"
   },
   {
-    "id": 18,
+    "id": 17,
     "nome": "Loção Hidratante Monange Q10 400 ml",
     "slug": "locao_hidratante_monange_Q10_400_ml",
     "preco": 27.70,
@@ -249,7 +239,7 @@
     "link": "produto.html?produto=locao_hidratante_monange_Q10_400_ml"
   },
   {
-    "id": 19,
+    "id": 18,
     "nome": "Loção Hidratante Vasenol 200 ml",
     "slug": "locao_hidratante_vasenol_200_ml",
     "preco": 28.90,
@@ -259,7 +249,7 @@
     "link": "produto.html?produto=locao_hidratante_vasenol_200_ml"
   },
   {
-    "id": 20,
+    "id": 19,
     "nome": "Hidratante Corporal Nivea Milk 400 ml",
     "slug": "hidratante_nivea_milk_400_ml",
     "preco": 27.90,
@@ -270,7 +260,7 @@
   },
 
   {
-    "id": 21,
+    "id": 20,
     "nome": "Hidratante Corporal Dove Karité 400 ml",
     "slug": "hidratante_dove_karite_400_ml",
     "preco": 24.90,
@@ -281,7 +271,7 @@
   },
 
   {
-    "id": 22,
+    "id": 21,
     "nome": "Neutrogena Hidratante Hidrata e suaviza 400ml",
     "slug": "hidratante_neutrogena_hidrata_suaviza",
     "preco": 59.90,
@@ -291,7 +281,7 @@
     "link": "produto.html?produto=hidratante_neutrogena_hydro_boost_50g"
   },
   {
-    "id": 23,
+    "id": 22,
     "nome": "Sabonete Liquido Hidrante Granado Amêndoas 300 ml",
     "slug": "sab_liq_granado_amendoas_300_ml",
     "preco": 32.90,
