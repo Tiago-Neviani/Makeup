@@ -1,0 +1,212 @@
+/* Faz com que largura e altura dos elementos incluam padding e borda no cálculo do tamanho. */
+* {
+  box-sizing: border-box;
+}
+
+/* Organiza o conteúdo principal centralizado e com espaçamento entre os elementos. */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #ffffff;
+  max-width: 700px;
+  height: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 25%;
+}
+
+/* Adiciona espaçamento interno à seção central. */
+.meio {
+  padding: 50px;
+}
+
+/* Define o tamanho da imagem do produto. */
+.prod img {
+  width: 300px;
+  height: auto;
+}
+
+/* Organiza a seção "sobre" em coluna e centraliza seu conteúdo. */
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+/* Adiciona um espaço acima do título h4 da seção sobre. */
+.sobre h4 {
+  margin-top: 20px;
+}
+
+/* Cria um quadro centralizado com sombra e cantos arredondados. */
+.quadro {
+  margin: 0 auto;
+  background-color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 900px;
+  height: auto;
+  border-radius: 10%;
+  box-shadow: 4px 4px 12px #000000;
+  gap: 50px;
+}
+
+/* Estiliza o botão de adicionar ao carrinho. */
+.adc {
+  margin-top: 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5%;
+  background: #8c0a0a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Centraliza e adiciona margem à seção de produtos relacionados. */
+.relacionados {
+  margin: 40px 40px;
+  text-align: center;
+}
+
+/* Define a área principal do carrossel de produtos. */
+#queridinhos {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+/* Cria a área visível do carrossel, escondendo o excesso de conteúdo. */
+.area-produtos {
+  width: 1410px;
+  overflow: hidden;
+  padding: 15px 0;
+}
+
+/* Organiza os slides lado a lado e permite animação de movimentação. */
+.slide-wrapper1 {
+  display: flex;
+  transition: transform .5s ease;
+}
+
+/* Define o tamanho e o alinhamento de cada slide. */
+.slide1 {
+  width: 1410px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Exibe os produtos em linha com espaçamento entre eles. */
+.produtos {
+  display: flex;
+  gap: 40px;
+}
+
+/* Define a aparência dos cartões de produtos. */
+.produto-card {
+  width: 230px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 8px #aaa;
+  flex-shrink: 0;
+}
+
+/* Define o tamanho e a apresentação das imagens dos produtos. */
+.produto-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+/* Posiciona as setas de navegação do carrossel. */
+.setas2 {
+  position: absolute;
+  top: 50%;
+  width: 74%;
+  margin: 0 13%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+/* Estiliza cada botão de seta do carrossel. */
+.seta2 {
+  background: rgba(0,0,0,.3);
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  user-select: none;
+}
+
+/* Destaca a seta quando o mouse passa sobre ela. */
+.seta2:hover {
+  background: rgba(0,0,0,.6);
+}
+
+/* Define a área das opções de variação do produto. */
+#variacoes {
+  margin: 20px 0;
+}
+
+/* Adiciona espaçamento abaixo do título das variações. */
+#variacoes h3 {
+  margin-bottom: 10px;
+}
+
+/* Estiliza os botões de seleção das variações do produto. */
+.btnVariacao {
+  padding: 8px 15px;
+  margin: 5px;
+  border: 1px solid #999;
+  background: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+/* Altera a aparência do botão de variação ao passar o mouse. */
+.btnVariacao:hover {
+  background: #ddd;
+}
+
+/* Destaca visualmente a variação atualmente selecionada. */
+.btnVariacao.ativo {
+  background: #8B0000;
+  color: white;
+  border-color: #8B0000;
+}
+
+/* Modifica a aparência do botão de adicionar quando está desativado. */
+.adc:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+/* Organiza os elementos da paginação em linha. */
+.pag {
+  display: flex;
+  gap: 7px;
+  margin: 0 13%;
+}
+
+/* Arredonda os cantos da imagem principal do produto. */
+#produto-imagem {
+  border-radius: 5px;
+}

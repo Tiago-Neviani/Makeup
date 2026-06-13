@@ -1,0 +1,116 @@
+/* Altera a cor do texto do parágrafo quando o mouse passa sobre ele. */
+p:hover {
+  color: #767676;
+}
+
+/* Organiza os produtos em uma grade com 5 colunas, espaçamento e centralização. */
+#lista-produtos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Também organiza os produtos em uma grade de 5 colunas. */
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Define a aparência geral do cartão do produto. */
+.produto-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #aaa;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+/* Define o tamanho e o formato das imagens dos produtos. */
+.produto-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+/* Altera a cor do texto do cartão ao passar o mouse. */
+.produto-card:hover {
+  color: #767676;
+}
+
+/* Redefine o tamanho da imagem e permite animações suaves. */
+.produto-card img {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+/* Aumenta levemente a imagem quando o mouse passa sobre ela. */
+.produto-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Altera a cor do título do produto ao passar o mouse. */
+.produto-card:hover h2 {
+  color: #767676;
+}
+
+/* Personaliza os links da paginação. */
+.pag a {
+  text-decoration: underline;
+  color: rgb(147, 41, 41);
+}
+
+/* Organiza os links da paginação em linha com espaçamento. */
+.pag {
+  display: flex;
+  gap: 7px;
+  margin: 0 13%;
+}
+
+/* Organiza o campo de ordenação e seu rótulo. */
+.ordenar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 15%;
+  padding: 10px 0;
+}
+
+/* Define a aparência do texto do rótulo. */
+.ordenar label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Estiliza a caixa de seleção de ordenação. */
+.ordenar select {
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Destaca a caixa de seleção quando o mouse passa sobre ela. */
+.ordenar select:hover {
+  border-color: #a94442;
+}
+
+/* Destaca a caixa de seleção quando ela está ativa ou selecionada pelo usuário. */
+.ordenar select:focus {
+  outline: none;
+  border-color: #8c0a0a;
+  box-shadow: 0 0 8px rgba(140, 10, 10, .3);
+}
